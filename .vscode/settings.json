@@ -1,0 +1,11 @@
+{
+  "eslint.enable": false,
+  "jslint.enable": false,
+  "jest.showCoverageOnLoad": true,
+  "jest.pathToJest": "yarn jest",
+  "jest.restartJestOnSnapshotUpdate": true,
+  "jest.pathToConfig": "./package.json",
+  "cSpell.words": [
+    "Molekule"
+  ]
+}

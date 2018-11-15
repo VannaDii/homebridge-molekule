@@ -1,0 +1,13 @@
+{
+  "data": {
+    "token": "eb541337-1beb-4007-bad8-eb9c0b64c7e7",
+    "userInfo": {
+      "encryptedUserId": "5724d011-804c-4a10-b4c2-0eb14ee0740c",
+      "firstName": "Gio",
+      "lastName": "Palacino",
+      "email": "gio@palacino.net",
+      "isEmailVerified": true,
+      "profileImgUrl": ""
+    }
+  }
+}

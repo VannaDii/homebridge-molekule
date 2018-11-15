@@ -1,0 +1,76 @@
+{
+  "name": "homebridge-molekule",
+  "displayName": "MolekulePlatform",
+  "version": "0.0.1",
+  "description": "A homebridge plugin for Molekule air purifiers",
+  "main": "index.js",
+  "author": "Gio Palacino <gio@palacino.net>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "homebridge-plugin",
+    "molekule",
+    "iot",
+    "sensor",
+    "air purifier",
+    "homebridge"
+  ],
+  "homepage": "https://github.com/giocirque/homebridge-molekule#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giocirque/homebridge-molekule.git"
+  },
+  "bugs": {
+    "url": "https://github.com/giocirque/homebridge-molekule/issues"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/tests"
+    ],
+    "testRegex": "(/tests/.*|(\\.|/)(test|spec))\\.jsx?$",
+    "collectCoverage": true,
+    "coverageDirectory": ".testing/coverage",
+    "collectCoverageFrom": [
+      "**/*.{js,jsx}",
+      "!**/node_modules/**",
+      "!**/vendor/**",
+      "!**/__mocks__/**"
+    ],
+    "resetMocks": true,
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    },
+    "testPathIgnorePatterns": [
+      "/node_modules/",
+      "/tests/__mocks__/"
+    ]
+  },
+  "engines": {
+    "homebridge": ">=0.2.0"
+  },
+  "bin": {
+    "molekule-cli": "./cli/index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "7.1.2",
+    "@babel/preset-env": "7.1.0",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "23.6.0",
+    "jest": "23.6.0",
+    "regenerator-runtime": "0.12.1"
+  },
+  "dependencies": {
+    "ora": "3.0.0",
+    "bash-color": "0.0.4",
+    "chalk": "2.4.1",
+    "commander": "2.19.0",
+    "configstore": "4.0.0",
+    "inquirer": "6.2.0"
+  }
+}

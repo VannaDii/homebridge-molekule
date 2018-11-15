@@ -1,0 +1,16 @@
+{
+  "data": {
+    "deviceName": "Gio-Molekule�",
+    "mac": null,
+    "ip": null,
+    "modelNumber": "0001",
+    "dimension": "23*35",
+    "powerConsumption": "50w",
+    "noise": "123N",
+    "weight": "50",
+    "display": "2.3\"",
+    "firmwareVersion": "FW:7.76",
+    "deviceIdentifier": null,
+    "firmwareUpdated": 1534983694
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "data": [
+    {
+      "lastConnectedDevice": true,
+      "deviceName": "Gio-Molekule�",
+      "serialNumber": "MH1M-LHA180525-000422",
+      "mac": null,
+      "ip": null,
+      "firmwareVersion": "FW:7.76",
+      "createdTime": 1534429449,
+      "deviceIdentifier": null,
+      "firmwareUpdated": 1534983694,
+      "islastConnected": true,
+      "channels": {
+        "subscription": {
+          "updateAccepted": "$aws/things/MH1M-LHA180525-000422/shadow/update/accepted",
+          "updateRejected": "$aws/things/MH1M-LHA180525-000422/shadow/update/rejected",
+          "getAccepted": "$aws/things/MH1M-LHA180525-000422/shadow/get/accepted",
+          "getRejected": "$aws/things/MH1M-LHA180525-000422/shadow/get/rejected",
+          "deviceData": "molekule/things/MH1M-LHA180525-000422/data",
+          "userData": "molekule/things/MH1M-LHA180525-000422/5724d011-804c-4a10-b4c2-0eb14ee0740c/data"
+        },
+        "publishing": {
+          "get": "$aws/things/MH1M-LHA180525-000422/shadow/get",
+          "update": "$aws/things/MH1M-LHA180525-000422/shadow/update",
+          "command": "molekule/things/MH1M-LHA180525-000422/command"
+        }
+      }
+    }
+  ]
+}
