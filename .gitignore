@@ -1,0 +1,26 @@
+# Node.js
+**/node_modules/**/*
+
+# VS Code Garbage
+**/.vscode/**/*.sql
+
+# Project Folders
+**/built/**/*
+**/dist/**/*
+waiverme-types/**/*.(d.ts|js|js.map)
+
+# Test related exclusions
+**/.testing/**/*
+
+# Other files I don't want committed
+**/.DS_Store
+**/.credentials*
+**/*.css*
+**/*.log
+
+# Editor directories and files
+**/.idea
+**/*.suo
+**/*.ntvs*
+**/*.njsproj
+**/*.sln
